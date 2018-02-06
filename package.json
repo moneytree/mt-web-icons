@@ -1,0 +1,18 @@
+{
+  "name": "mt-web-icons",
+  "version": "0.0.1",
+  "description": "Moneytree icons for web-based products.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moneytree/mt-web-icons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moneytree/mt-web-icons/issues"
+  },
+  "homepage": "https://github.com/moneytree/mt-web-icons#readme"
+}
