@@ -13,6 +13,7 @@
 		el.innerHTML = '<span style="font-family: \'moneytree\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'mt-cross': '&#xe90d;',
 		'mt-logotype': '&#xe900;',
 		'mt-logo': '&#xe901;',
 		'mt-nub-left': '&#xe902;',
