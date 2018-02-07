@@ -1,8 +1,4 @@
 # mt-web-icons
-# Setup
-```
-yarn install
-```
 
 # Steps for updating the web font
 1. Go to https://icomoon.io/app/#/select
