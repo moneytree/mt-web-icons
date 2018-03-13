@@ -1,3 +1,128 @@
+<<<<<<< HEAD
+@font-face {
+  font-family: 'mt-web-icons';
+  src:  url('fonts/mt-web-icons.eot?a96osp');
+  src:  url('fonts/mt-web-icons.eot?a96osp#iefix') format('embedded-opentype'),
+    url('fonts/mt-web-icons.ttf?a96osp') format('truetype'),
+    url('fonts/mt-web-icons.woff?a96osp') format('woff'),
+    url('fonts/mt-web-icons.svg?a96osp#mt-web-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="mt-"], [class*=" mt-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'mt-web-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mt-point-transactions-read:before {
+  content: "\e90e";
+}
+.mt-points-read:before {
+  content: "\e90f";
+}
+.mt-request-refresh:before {
+  content: "\e910";
+}
+.mt-notifications-read:before {
+  content: "\e911";
+}
+.mt-life-insurance-read:before {
+  content: "\e912";
+}
+.mt-investment-transactions-read:before {
+  content: "\e913";
+}
+.mt-investment-accounts-read:before {
+  content: "\e914";
+}
+.mt-expense-claims-write:before {
+  content: "\e915";
+}
+.mt-expense-claims-read:before {
+  content: "\e916";
+}
+.mt-categories-write:before {
+  content: "\e917";
+}
+.mt-categories-read:before {
+  content: "\e918";
+}
+.mt-transactions-write:before {
+  content: "\e919";
+}
+.mt-transactions-read:before {
+  content: "\e91a";
+}
+.mt-accounts-read:before {
+  content: "\e91b";
+}
+.mt-guest-read:before {
+  content: "\e91c";
+}
+.mt-check:before {
+  content: "\e91d";
+}
+.mt-application:before {
+  content: "\e91e";
+}
+.mt-organization:before {
+  content: "\e91f";
+}
+.mt-cross:before {
+  content: "\e90d";
+}
+.mt-logotype:before {
+  content: "\e900";
+}
+.mt-logo:before {
+  content: "\e901";
+}
+.mt-nub-left:before {
+  content: "\e902";
+}
+.mt-nub-right:before {
+  content: "\e903";
+}
+.mt-nub-up:before {
+  content: "\e904";
+}
+.mt-nub-down:before {
+  content: "\e905";
+}
+.mt-question:before {
+  content: "\e906";
+}
+.mt-chevron-left:before {
+  content: "\e907";
+}
+.mt-chevron-right:before {
+  content: "\e908";
+}
+.mt-chevron-up:before {
+  content: "\e909";
+}
+.mt-chevron-down:before {
+  content: "\e90a";
+}
+.mt-back:before {
+  content: "\e90b";
+}
+.mt-forward:before {
+  content: "\e90c";
+}
+||||||| merged common ancestors
+=======
 @font-face {
   font-family: 'mt-web-icons';
   src:  url('fonts/mt-web-icons.eot?k6cair');
@@ -120,3 +245,4 @@
 .mt-forward:before {
   content: "\e90c";
 }
+>>>>>>> origin
