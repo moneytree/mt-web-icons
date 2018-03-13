@@ -10,9 +10,27 @@
 (function() {
 	function addIcon(el, entity) {
 		var html = el.innerHTML;
-		el.innerHTML = '<span style="font-family: \'moneytree\'">' + entity + '</span>' + html;
+		el.innerHTML = '<span style="font-family: \'mt-web-icons\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'mt-point-transactions-read': '&#xe90e;',
+		'mt-points-read': '&#xe90f;',
+		'mt-request-refresh': '&#xe910;',
+		'mt-notifications-read': '&#xe911;',
+		'mt-life-insurance-read': '&#xe912;',
+		'mt-investment-transactions-read': '&#xe913;',
+		'mt-investment-accounts-read': '&#xe914;',
+		'mt-expense-claims-write': '&#xe915;',
+		'mt-expense-claims-read': '&#xe916;',
+		'mt-categories-write': '&#xe917;',
+		'mt-categories-read': '&#xe918;',
+		'mt-transactions-write': '&#xe919;',
+		'mt-transactions-read': '&#xe91a;',
+		'mt-accounts-read': '&#xe91b;',
+		'mt-guest-read': '&#xe91c;',
+		'mt-check': '&#xe91d;',
+		'mt-application': '&#xe91e;',
+		'mt-organization': '&#xe91f;',
 		'mt-cross': '&#xe90d;',
 		'mt-logotype': '&#xe900;',
 		'mt-logo': '&#xe901;',
