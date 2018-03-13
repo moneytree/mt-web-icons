@@ -10,9 +10,27 @@
 (function() {
 	function addIcon(el, entity) {
 		var html = el.innerHTML;
-		el.innerHTML = '<span style="font-family: \'moneytree\'">' + entity + '</span>' + html;
+		el.innerHTML = '<span style="font-family: \'mt-web-icons\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'mt-scope-point-transactions-read': '&#xe90e;',
+		'mt-scope-points-read': '&#xe90f;',
+		'mt-scope-request-refresh': '&#xe910;',
+		'mt-scope-notifications-read': '&#xe911;',
+		'mt-scope-life-insurance-read': '&#xe912;',
+		'mt-scope-investment-transactions-read': '&#xe913;',
+		'mt-scope-investment-accounts-read': '&#xe914;',
+		'mt-scope-expense-claims-write': '&#xe915;',
+		'mt-expense-claims-read': '&#xe916;',
+		'mt-scope-categories-write': '&#xe917;',
+		'mt-scope-categories-read': '&#xe918;',
+		'mt-scope-transactions-write': '&#xe919;',
+		'mt-transactions-read': '&#xe91a;',
+		'mt-scope-accounts-read': '&#xe91b;',
+		'mt-scope-guest-read': '&#xe91c;',
+		'mt-check': '&#xe91d;',
+		'mt-application': '&#xe91e;',
+		'mt-organization': '&#xe91f;',
 		'mt-cross': '&#xe90d;',
 		'mt-logotype': '&#xe900;',
 		'mt-logo': '&#xe901;',
