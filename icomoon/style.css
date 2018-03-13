@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'moneytree';
-  src:  url('fonts/moneytree.eot?vv0a84');
-  src:  url('fonts/moneytree.eot?vv0a84#iefix') format('embedded-opentype'),
-    url('fonts/moneytree.ttf?vv0a84') format('truetype'),
-    url('fonts/moneytree.woff?vv0a84') format('woff'),
-    url('fonts/moneytree.svg?vv0a84#moneytree') format('svg');
+  font-family: 'mt-web-icons';
+  src:  url('fonts/mt-web-icons.eot?k6cair');
+  src:  url('fonts/mt-web-icons.eot?k6cair#iefix') format('embedded-opentype'),
+    url('fonts/mt-web-icons.ttf?k6cair') format('truetype'),
+    url('fonts/mt-web-icons.woff?k6cair') format('woff'),
+    url('fonts/mt-web-icons.svg?k6cair#mt-web-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="mt-"], [class*=" mt-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'moneytree' !important;
+  font-family: 'mt-web-icons' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -24,6 +24,60 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mt-scope-point-transactions-read:before {
+  content: "\e90e";
+}
+.mt-scope-points-read:before {
+  content: "\e90f";
+}
+.mt-scope-request-refresh:before {
+  content: "\e910";
+}
+.mt-scope-notifications-read:before {
+  content: "\e911";
+}
+.mt-scope-life-insurance-read:before {
+  content: "\e912";
+}
+.mt-scope-investment-transactions-read:before {
+  content: "\e913";
+}
+.mt-scope-investment-accounts-read:before {
+  content: "\e914";
+}
+.mt-scope-expense-claims-write:before {
+  content: "\e915";
+}
+.mt-expense-claims-read:before {
+  content: "\e916";
+}
+.mt-scope-categories-write:before {
+  content: "\e917";
+}
+.mt-scope-categories-read:before {
+  content: "\e918";
+}
+.mt-scope-transactions-write:before {
+  content: "\e919";
+}
+.mt-transactions-read:before {
+  content: "\e91a";
+}
+.mt-scope-accounts-read:before {
+  content: "\e91b";
+}
+.mt-scope-guest-read:before {
+  content: "\e91c";
+}
+.mt-check:before {
+  content: "\e91d";
+}
+.mt-application:before {
+  content: "\e91e";
+}
+.mt-organization:before {
+  content: "\e91f";
+}
 .mt-cross:before {
   content: "\e90d";
 }
