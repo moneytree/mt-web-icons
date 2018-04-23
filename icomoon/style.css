@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mt-web-icons';
-  src:  url('fonts/mt-web-icons.eot?1zar3g');
-  src:  url('fonts/mt-web-icons.eot?1zar3g#iefix') format('embedded-opentype'),
-    url('fonts/mt-web-icons.ttf?1zar3g') format('truetype'),
-    url('fonts/mt-web-icons.woff?1zar3g') format('woff'),
-    url('fonts/mt-web-icons.svg?1zar3g#mt-web-icons') format('svg');
+  src:  url('fonts/mt-web-icons.eot?hv793g');
+  src:  url('fonts/mt-web-icons.eot?hv793g#iefix') format('embedded-opentype'),
+    url('fonts/mt-web-icons.ttf?hv793g') format('truetype'),
+    url('fonts/mt-web-icons.woff?hv793g') format('woff'),
+    url('fonts/mt-web-icons.svg?hv793g#mt-web-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -48,7 +48,7 @@
 .mt-scope-expense-claims-write:before {
   content: "\e915";
 }
-.mt-expense-claims-read:before {
+.mt-scope-expense-claims-read:before {
   content: "\e916";
 }
 .mt-scope-categories-write:before {

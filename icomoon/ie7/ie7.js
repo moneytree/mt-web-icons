@@ -21,7 +21,7 @@
 		'mt-scope-notifications-read': '&#xe911;',
 		'mt-scope-life-insurance-read': '&#xe912;',
 		'mt-scope-expense-claims-write': '&#xe915;',
-		'mt-expense-claims-read': '&#xe916;',
+		'mt-scope-expense-claims-read': '&#xe916;',
 		'mt-scope-categories-write': '&#xe917;',
 		'mt-scope-categories-read': '&#xe918;',
 		'mt-scope-transactions-write': '&#xe919;',

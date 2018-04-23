@@ -22,7 +22,7 @@
 .mt-scope-expense-claims-write {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe915;');
 }
-.mt-expense-claims-read {
+.mt-scope-expense-claims-read {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe916;');
 }
 .mt-scope-categories-write {

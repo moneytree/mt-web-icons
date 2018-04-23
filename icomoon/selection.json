@@ -352,7 +352,7 @@
         "isMulticolor2": false,
         "grid": 24,
         "tags": [
-          "expense-claims-read"
+          "scope-expense-claims-read"
         ]
       },
       "attrs": [
@@ -377,7 +377,7 @@
       "properties": {
         "order": 2197,
         "id": 23,
-        "name": "expense-claims-read",
+        "name": "scope-expense-claims-read",
         "prevSize": 32,
         "code": 59670
       },
