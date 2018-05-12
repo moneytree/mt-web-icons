@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mt-web-icons';
-  src:  url('fonts/mt-web-icons.eot?nvdw1h');
-  src:  url('fonts/mt-web-icons.eot?nvdw1h#iefix') format('embedded-opentype'),
-    url('fonts/mt-web-icons.ttf?nvdw1h') format('truetype'),
-    url('fonts/mt-web-icons.woff?nvdw1h') format('woff'),
-    url('fonts/mt-web-icons.svg?nvdw1h#mt-web-icons') format('svg');
+  src:  url('fonts/mt-web-icons.eot?boo0pt');
+  src:  url('fonts/mt-web-icons.eot?boo0pt#iefix') format('embedded-opentype'),
+    url('fonts/mt-web-icons.ttf?boo0pt') format('truetype'),
+    url('fonts/mt-web-icons.woff?boo0pt') format('woff'),
+    url('fonts/mt-web-icons.svg?boo0pt#mt-web-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mt-settings:before {
+  content: "\e900";
+}
+.mt-refresh:before {
+  content: "\e901";
+}
 .mt-institution-stored-value:before {
   content: "\ea23";
 }
@@ -90,17 +96,11 @@
 .mt-scope-guest-read:before {
   content: "\ea0e";
 }
-.mt-check2:before {
-  content: "\ea0f";
-}
 .mt-application:before {
   content: "\ea10";
 }
 .mt-organization:before {
   content: "\ea11";
-}
-.mt-cross2:before {
-  content: "\ea12";
 }
 .mt-logotype:before {
   content: "\ea13";
@@ -123,11 +123,20 @@
 .mt-question:before {
   content: "\ea1d";
 }
+.mt-check2:before {
+  content: "\ea0f";
+}
 .mt-chevron-left:before {
   content: "\ea1c";
 }
+.mt-plus:before {
+  content: "\e902";
+}
 .mt-chevron-right:before {
   content: "\ea1b";
+}
+.mt-cross2:before {
+  content: "\ea12";
 }
 .mt-chevron-up:before {
   content: "\ea1a";

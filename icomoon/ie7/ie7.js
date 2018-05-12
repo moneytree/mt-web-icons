@@ -13,6 +13,8 @@
 		el.innerHTML = '<span style="font-family: \'mt-web-icons\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'mt-settings': '&#xe900;',
+		'mt-refresh': '&#xe901;',
 		'mt-institution-stored-value': '&#xea23;',
 		'mt-institution-stock': '&#xea24;',
 		'mt-institution-point': '&#xea25;',
@@ -35,10 +37,8 @@
 		'mt-scope-transactions-read': '&#xea20;',
 		'mt-scope-accounts-read': '&#xea0d;',
 		'mt-scope-guest-read': '&#xea0e;',
-		'mt-check2': '&#xea0f;',
 		'mt-application': '&#xea10;',
 		'mt-organization': '&#xea11;',
-		'mt-cross2': '&#xea12;',
 		'mt-logotype': '&#xea13;',
 		'mt-logo': '&#xea14;',
 		'mt-nub-left': '&#xea15;',
@@ -46,8 +46,11 @@
 		'mt-nub-up': '&#xea17;',
 		'mt-nub-down': '&#xea1e;',
 		'mt-question': '&#xea1d;',
+		'mt-check2': '&#xea0f;',
 		'mt-chevron-left': '&#xea1c;',
+		'mt-plus': '&#xe902;',
 		'mt-chevron-right': '&#xea1b;',
+		'mt-cross2': '&#xea12;',
 		'mt-chevron-up': '&#xea1a;',
 		'mt-chevron-down': '&#xea19;',
 		'mt-back': '&#xea18;',
