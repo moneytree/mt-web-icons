@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mt-web-icons';
-  src:  url('fonts/mt-web-icons.eot?hv793g');
-  src:  url('fonts/mt-web-icons.eot?hv793g#iefix') format('embedded-opentype'),
-    url('fonts/mt-web-icons.ttf?hv793g') format('truetype'),
-    url('fonts/mt-web-icons.woff?hv793g') format('woff'),
-    url('fonts/mt-web-icons.svg?hv793g#mt-web-icons') format('svg');
+  src:  url('fonts/mt-web-icons.eot?nvdw1h');
+  src:  url('fonts/mt-web-icons.eot?nvdw1h#iefix') format('embedded-opentype'),
+    url('fonts/mt-web-icons.ttf?nvdw1h') format('truetype'),
+    url('fonts/mt-web-icons.woff?nvdw1h') format('woff'),
+    url('fonts/mt-web-icons.svg?nvdw1h#mt-web-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,99 +24,120 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mt-institution-stored-value:before {
+  content: "\ea23";
+}
+.mt-institution-stock:before {
+  content: "\ea24";
+}
+.mt-institution-point:before {
+  content: "\ea25";
+}
+.mt-institution-manual:before {
+  content: "\ea26";
+}
+.mt-institution-credit-card:before {
+  content: "\ea27";
+}
+.mt-institution-corporate:before {
+  content: "\ea28";
+}
+.mt-institution-bank:before {
+  content: "\ea29";
+}
 .mt-scope-investment-accounts-read:before {
-  content: "\e913";
+  content: "\ea22";
 }
 .mt-scope-investment-transactions-read:before {
-  content: "\e914";
+  content: "\ea21";
 }
 .mt-scope-point-transactions-read:before {
-  content: "\e90e";
+  content: "\ea04";
 }
 .mt-scope-points-read:before {
-  content: "\e90f";
+  content: "\ea1f";
 }
 .mt-scope-request-refresh:before {
-  content: "\e910";
+  content: "\ea05";
 }
 .mt-scope-notifications-read:before {
-  content: "\e911";
+  content: "\ea06";
 }
 .mt-scope-life-insurance-read:before {
-  content: "\e912";
+  content: "\ea07";
 }
 .mt-scope-expense-claims-write:before {
-  content: "\e915";
+  content: "\ea08";
 }
 .mt-scope-expense-claims-read:before {
-  content: "\e916";
+  content: "\ea09";
 }
 .mt-scope-categories-write:before {
-  content: "\e917";
+  content: "\ea0a";
 }
 .mt-scope-categories-read:before {
-  content: "\e918";
+  content: "\ea0b";
 }
 .mt-scope-transactions-write:before {
-  content: "\e919";
+  content: "\ea0c";
 }
 .mt-scope-transactions-read:before {
-  content: "\e91a";
+  content: "\ea20";
 }
 .mt-scope-accounts-read:before {
-  content: "\e91b";
+  content: "\ea0d";
 }
 .mt-scope-guest-read:before {
-  content: "\e91c";
+  content: "\ea0e";
 }
-.mt-check:before {
-  content: "\e91d";
+.mt-check2:before {
+  content: "\ea0f";
 }
 .mt-application:before {
-  content: "\e91e";
+  content: "\ea10";
 }
 .mt-organization:before {
-  content: "\e91f";
+  content: "\ea11";
 }
-.mt-cross:before {
-  content: "\e90d";
+.mt-cross2:before {
+  content: "\ea12";
 }
 .mt-logotype:before {
-  content: "\e900";
+  content: "\ea13";
 }
 .mt-logo:before {
-  content: "\e901";
+  content: "\ea14";
 }
 .mt-nub-left:before {
-  content: "\e902";
+  content: "\ea15";
 }
 .mt-nub-right:before {
-  content: "\e903";
+  content: "\ea16";
 }
 .mt-nub-up:before {
-  content: "\e904";
+  content: "\ea17";
 }
 .mt-nub-down:before {
-  content: "\e905";
+  content: "\ea1e";
 }
 .mt-question:before {
-  content: "\e906";
+  content: "\ea1d";
 }
 .mt-chevron-left:before {
-  content: "\e907";
+  content: "\ea1c";
 }
 .mt-chevron-right:before {
-  content: "\e908";
+  content: "\ea1b";
 }
 .mt-chevron-up:before {
-  content: "\e909";
+  content: "\ea1a";
 }
 .mt-chevron-down:before {
-  content: "\e90a";
+  content: "\ea19";
 }
 .mt-back:before {
-  content: "\e90b";
+  content: "\ea18";
 }
 .mt-forward:before {
-  content: "\e90c";
+  content: "\ea03";
 }
