@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mt-web-icons';
-  src:  url('fonts/mt-web-icons.eot?boo0pt');
-  src:  url('fonts/mt-web-icons.eot?boo0pt#iefix') format('embedded-opentype'),
-    url('fonts/mt-web-icons.ttf?boo0pt') format('truetype'),
-    url('fonts/mt-web-icons.woff?boo0pt') format('woff'),
-    url('fonts/mt-web-icons.svg?boo0pt#mt-web-icons') format('svg');
+  src:  url('fonts/mt-web-icons.eot?rbej1a');
+  src:  url('fonts/mt-web-icons.eot?rbej1a#iefix') format('embedded-opentype'),
+    url('fonts/mt-web-icons.ttf?rbej1a') format('truetype'),
+    url('fonts/mt-web-icons.woff?rbej1a') format('woff'),
+    url('fonts/mt-web-icons.svg?rbej1a#mt-web-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mt-error:before {
+  content: "\e903";
+}
+.mt-all-accounts:before {
+  content: "\e904";
+}
+.mt-search:before {
+  content: "\e905";
+}
 .mt-settings:before {
   content: "\e900";
 }

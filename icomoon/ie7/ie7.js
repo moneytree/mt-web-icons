@@ -13,6 +13,9 @@
 		el.innerHTML = '<span style="font-family: \'mt-web-icons\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'mt-error': '&#xe903;',
+		'mt-all-accounts': '&#xe904;',
+		'mt-search': '&#xe905;',
 		'mt-settings': '&#xe900;',
 		'mt-refresh': '&#xe901;',
 		'mt-institution-stored-value': '&#xea23;',
