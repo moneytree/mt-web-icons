@@ -1,97 +1,142 @@
-.mt-scope-investment-accounts-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe913;');
-}
-.mt-scope-investment-transactions-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe914;');
-}
-.mt-scope-point-transactions-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90e;');
-}
-.mt-scope-points-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90f;');
-}
-.mt-scope-request-refresh {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe910;');
-}
-.mt-scope-notifications-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe911;');
-}
-.mt-scope-life-insurance-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe912;');
-}
-.mt-scope-expense-claims-write {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe915;');
-}
-.mt-scope-expense-claims-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe916;');
-}
-.mt-scope-categories-write {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe917;');
-}
-.mt-scope-categories-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe918;');
-}
-.mt-scope-transactions-write {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe919;');
-}
-.mt-scope-transactions-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91a;');
-}
-.mt-scope-accounts-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91b;');
-}
-.mt-scope-guest-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91c;');
-}
-.mt-check {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91d;');
-}
-.mt-application {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91e;');
-}
-.mt-organization {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91f;');
-}
-.mt-cross {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90d;');
-}
-.mt-logotype {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe900;');
-}
-.mt-logo {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe901;');
-}
-.mt-nub-left {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe902;');
-}
-.mt-nub-right {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe903;');
-}
-.mt-nub-up {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe904;');
-}
-.mt-nub-down {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe905;');
-}
-.mt-question {
+.mt-status-error {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe906;');
 }
-.mt-chevron-left {
+.mt-status-updated {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe907;');
 }
+.mt-error {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe903;');
+}
+.mt-all-accounts {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe904;');
+}
+.mt-search {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe905;');
+}
+.mt-settings {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe900;');
+}
+.mt-refresh {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe901;');
+}
+.mt-institution-stored-value {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea23;');
+}
+.mt-institution-stock {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea24;');
+}
+.mt-institution-point {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea25;');
+}
+.mt-institution-manual {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea26;');
+}
+.mt-institution-credit-card {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea27;');
+}
+.mt-institution-corporate {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea28;');
+}
+.mt-institution-bank {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea29;');
+}
+.mt-scope-investment-accounts-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea22;');
+}
+.mt-scope-investment-transactions-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea21;');
+}
+.mt-scope-point-transactions-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea04;');
+}
+.mt-scope-points-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea1f;');
+}
+.mt-scope-request-refresh {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea05;');
+}
+.mt-scope-notifications-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea06;');
+}
+.mt-scope-life-insurance-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea07;');
+}
+.mt-scope-expense-claims-write {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea08;');
+}
+.mt-scope-expense-claims-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea09;');
+}
+.mt-scope-categories-write {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea0a;');
+}
+.mt-scope-categories-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea0b;');
+}
+.mt-scope-transactions-write {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea0c;');
+}
+.mt-scope-transactions-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea20;');
+}
+.mt-scope-accounts-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea0d;');
+}
+.mt-scope-guest-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea0e;');
+}
+.mt-application {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea10;');
+}
+.mt-organization {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea11;');
+}
+.mt-logotype {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea13;');
+}
+.mt-logo {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea14;');
+}
+.mt-nub-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea15;');
+}
+.mt-nub-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea16;');
+}
+.mt-nub-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea17;');
+}
+.mt-nub-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea1e;');
+}
+.mt-question {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea1d;');
+}
+.mt-check2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea0f;');
+}
+.mt-chevron-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea1c;');
+}
+.mt-plus {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe902;');
+}
 .mt-chevron-right {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe908;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea1b;');
+}
+.mt-cross2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea12;');
 }
 .mt-chevron-up {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe909;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea1a;');
 }
 .mt-chevron-down {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90a;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea19;');
 }
 .mt-back {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90b;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea18;');
 }
 .mt-forward {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90c;');
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea03;');
 }
 
