@@ -124,7 +124,7 @@
 .mt-chevron-right {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea1b;');
 }
-.mt-cross2 {
+.mt-cross {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea12;');
 }
 .mt-chevron-up {

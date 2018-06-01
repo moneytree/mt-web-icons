@@ -55,7 +55,7 @@
 		'mt-chevron-left': '&#xea1c;',
 		'mt-plus': '&#xe902;',
 		'mt-chevron-right': '&#xea1b;',
-		'mt-cross2': '&#xea12;',
+		'mt-cross': '&#xea12;',
 		'mt-chevron-up': '&#xea1a;',
 		'mt-chevron-down': '&#xea19;',
 		'mt-back': '&#xea18;',
