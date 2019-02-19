@@ -1,96 +1,3 @@
-.mt-corp_account_transfer {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea03;');
-}
-.mt-corp_ads {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea04;');
-}
-.mt-corp_benefits {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea05;');
-}
-.mt-corp_comm {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea06;');
-}
-.mt-corp_consumption_tax_payment {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea07;');
-}
-.mt-corp_consumption_tax_refund {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea08;');
-}
-.mt-corp_debt {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea09;');
-}
-.mt-corp_delivery {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea0a;');
-}
-.mt-corp_entertainment {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea0b;');
-}
-.mt-corp_fixed_assets {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea0c;');
-}
-.mt-corp_insurance {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea0d;');
-}
-.mt-corp_interest_expenses {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea0e;');
-}
-.mt-corp_interest_received-_copy {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea0f;');
-}
-.mt-corp_interest_received {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea10;');
-}
-.mt-corp_investment {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea11;');
-}
-.mt-corp_loan {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea12;');
-}
-.mt-corp_misc {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea13;');
-}
-.mt-corp_outsource {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea14;');
-}
-.mt-corp_purchase {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea15;');
-}
-.mt-corp_rent {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea16;');
-}
-.mt-corp_repair {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea17;');
-}
-.mt-corp_salary {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea18;');
-}
-.mt-corp_sales {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea19;');
-}
-.mt-corp_sundry_taxes {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea1a;');
-}
-.mt-corp_supplies {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea1b;');
-}
-.mt-corp_tax_payment {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea1c;');
-}
-.mt-corp_travel {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea1d;');
-}
-.mt-corp_utilities {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea1e;');
-}
-.mt-insufficient-funds-o {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea02;');
-}
-.mt-download-from-cloud {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea01;');
-}
-.mt-more {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea00;');
-}
 .mt-advertising_expense {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe92a;');
 }
@@ -124,11 +31,11 @@
 .mt-attorney_fee {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe934;');
 }
-.mt-auto_insurance {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe935;');
-}
 .mt-auto {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe936;');
+}
+.mt-auto_insurance {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe935;');
 }
 .mt-bank_fee {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe937;');
@@ -163,11 +70,14 @@
 .mt-bulb {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe941;');
 }
+.mt-bus {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe943;');
+}
 .mt-bus_fare {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe942;');
 }
-.mt-bus {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe943;');
+.mt-business_expense {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe968;');
 }
 .mt-business_trip_fee {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe944;');
@@ -217,6 +127,90 @@
 .mt-convenience_store {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe953;');
 }
+.mt-corp_account_transfer {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea03;');
+}
+.mt-corp_ads {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea04;');
+}
+.mt-corp_benefits {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea05;');
+}
+.mt-corp_comm {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea06;');
+}
+.mt-corp_consumption_tax_payment {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea07;');
+}
+.mt-corp_consumption_tax_refund {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea08;');
+}
+.mt-corp_debt {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea09;');
+}
+.mt-corp_delivery {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea0a;');
+}
+.mt-corp_entertainment {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea0b;');
+}
+.mt-corp_fixed_assets {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea0c;');
+}
+.mt-corp_insurance {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea0d;');
+}
+.mt-corp_interest_expenses {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea0e;');
+}
+.mt-corp_interest_received {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea10;');
+}
+.mt-corp_interest_received-_copy {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea0f;');
+}
+.mt-corp_investment {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea11;');
+}
+.mt-corp_loan {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea12;');
+}
+.mt-corp_misc {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea13;');
+}
+.mt-corp_outsource {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea14;');
+}
+.mt-corp_purchase {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea15;');
+}
+.mt-corp_rent {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea16;');
+}
+.mt-corp_repair {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea17;');
+}
+.mt-corp_salary {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea18;');
+}
+.mt-corp_sales {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea19;');
+}
+.mt-corp_sundry_taxes {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea1a;');
+}
+.mt-corp_supplies {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea1b;');
+}
+.mt-corp_tax_payment {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea1c;');
+}
+.mt-corp_travel {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea1d;');
+}
+.mt-corp_utilities {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea1e;');
+}
 .mt-cosmetics {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe954;');
 }
@@ -241,6 +235,9 @@
 .mt-doctor {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe95b;');
 }
+.mt-download-from-cloud {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea01;');
+}
 .mt-drops {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe95c;');
 }
@@ -250,11 +247,11 @@
 .mt-education {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe95e;');
 }
-.mt-electricity_bill {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe95f;');
-}
 .mt-electricity {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe960;');
+}
+.mt-electricity_bill {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe95f;');
 }
 .mt-electronics {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe961;');
@@ -268,17 +265,14 @@
 .mt-employment_insurance_premium {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe964;');
 }
-.mt-entertainment_expenses {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe965;');
-}
 .mt-entertainment {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe966;');
 }
+.mt-entertainment_expenses {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe965;');
+}
 .mt-exclude {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe967;');
-}
-.mt-business_expense {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe968;');
 }
 .mt-eyecare {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe969;');
@@ -346,6 +340,9 @@
 .mt-holiday_leisure {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe97e;');
 }
+.mt-home {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe984;');
+}
 .mt-home_improvement {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe97f;');
 }
@@ -361,9 +358,6 @@
 .mt-home_supplies {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe983;');
 }
-.mt-home {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe984;');
-}
 .mt-hotel {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe985;');
 }
@@ -372,6 +366,9 @@
 }
 .mt-income_amount {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe987;');
+}
+.mt-insufficient-funds-o {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea02;');
 }
 .mt-interest_charge {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe988;');
@@ -382,14 +379,17 @@
 .mt-interest_income {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe98a;');
 }
-.mt-internet_fee {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe98b;');
-}
 .mt-internet {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe98c;');
 }
+.mt-internet_fee {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe98b;');
+}
 .mt-investments {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe98d;');
+}
+.mt-invisible {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90a;');
 }
 .mt-ipad {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe98e;');
@@ -415,11 +415,11 @@
 .mt-legal {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe995;');
 }
-.mt-life_insurance {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe996;');
-}
 .mt-life {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe997;');
+}
+.mt-life_insurance {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe996;');
 }
 .mt-like {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe998;');
@@ -447,6 +447,9 @@
 }
 .mt-mobile_phone {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9a0;');
+}
+.mt-more {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea00;');
 }
 .mt-movies {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9a1;');
@@ -493,11 +496,11 @@
 .mt-paper {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9af;');
 }
-.mt-parking_fee {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9b0;');
-}
 .mt-parking {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9b1;');
+}
+.mt-parking_fee {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9b0;');
 }
 .mt-pediatrician {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9b2;');
@@ -559,11 +562,11 @@
 .mt-restaurant {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9c5;');
 }
-.mt-salary_wage {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9c6;');
-}
 .mt-salary {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9c7;');
+}
+.mt-salary_wage {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9c6;');
 }
 .mt-sales_amount {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9c8;');
@@ -619,6 +622,9 @@
 .mt-star {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9d9;');
 }
+.mt-clear {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90b;');
+}
 .mt-strawberry {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9da;');
 }
@@ -640,11 +646,11 @@
 .mt-taxes {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9e0;');
 }
-.mt-taxi_fare {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9e1;');
-}
 .mt-taxi {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9e2;');
+}
+.mt-taxi_fare {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9e1;');
 }
 .mt-telephone_bill {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9e3;');
@@ -667,17 +673,17 @@
 .mt-tone {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9e9;');
 }
-.mt-train_fare {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9ea;');
-}
 .mt-train {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9eb;');
 }
-.mt-transfer_fee {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9ec;');
+.mt-train_fare {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9ea;');
 }
 .mt-transfer {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9ed;');
+}
+.mt-transfer_fee {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9ec;');
 }
 .mt-transport {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9ee;');
@@ -700,17 +706,20 @@
 .mt-video {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9f4;');
 }
+.mt-visible {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90c;');
+}
 .mt-warehouse_cost {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9f5;');
+}
+.mt-water {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9f8;');
 }
 .mt-water_bill {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9f6;');
 }
 .mt-water_utility_expenses {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9f7;');
-}
-.mt-water {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9f8;');
 }
 .mt-welfare_pension_insurance_premium {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9f9;');
@@ -721,107 +730,71 @@
 .mt-workers_compensation_insurance_premium {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe9fb;');
 }
-.mt-status-refresh {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe908;');
-}
-.mt-status-error {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe906;');
-}
-.mt-status-updated {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe907;');
-}
-.mt-error {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe903;');
-}
 .mt-all-accounts {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe904;');
-}
-.mt-search {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe905;');
-}
-.mt-settings {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe900;');
-}
-.mt-refresh {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe901;');
-}
-.mt-institution-stored-value {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea23;');
-}
-.mt-institution-stock {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea24;');
-}
-.mt-institution-point {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea25;');
-}
-.mt-institution-manual {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea26;');
-}
-.mt-institution-credit-card {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea27;');
-}
-.mt-institution-corporate {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea28;');
-}
-.mt-institution-bank {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea29;');
-}
-.mt-scope-investment-accounts-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea22;');
-}
-.mt-scope-investment-transactions-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea21;');
-}
-.mt-scope-point-transactions-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea1f;');
-}
-.mt-scope-points-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea2d;');
-}
-.mt-scope-request-refresh {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea2e;');
-}
-.mt-scope-notifications-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea2f;');
-}
-.mt-scope-life-insurance-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea30;');
-}
-.mt-scope-expense-claims-write {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea31;');
-}
-.mt-scope-expense-claims-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea32;');
-}
-.mt-scope-categories-write {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea33;');
-}
-.mt-scope-categories-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea34;');
-}
-.mt-scope-transactions-write {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea35;');
-}
-.mt-scope-transactions-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea36;');
-}
-.mt-scope-accounts-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea37;');
-}
-.mt-scope-guest-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea38;');
 }
 .mt-application {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea39;');
 }
-.mt-organization {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea20;');
+.mt-back {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea2b;');
+}
+.mt-check {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea40;');
+}
+.mt-chevron-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea45;');
+}
+.mt-chevron-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea41;');
+}
+.mt-chevron-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea42;');
+}
+.mt-chevron-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea44;');
+}
+.mt-cross {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea43;');
+}
+.mt-error {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe903;');
+}
+.mt-external-link {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe909;');
+}
+.mt-forward {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea2c;');
+}
+.mt-institution-bank {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea29;');
+}
+.mt-institution-corporate {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea28;');
+}
+.mt-institution-credit-card {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea27;');
+}
+.mt-institution-manual {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea26;');
+}
+.mt-institution-point {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea25;');
+}
+.mt-institution-stock {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea24;');
+}
+.mt-institution-stored-value {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea23;');
+}
+.mt-logo {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea3a;');
 }
 .mt-logotype {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea2a;');
 }
-.mt-logo {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea3a;');
+.mt-nub-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea3e;');
 }
 .mt-nub-left {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea3b;');
@@ -832,40 +805,76 @@
 .mt-nub-up {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea3d;');
 }
-.mt-nub-down {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea3e;');
-}
-.mt-question {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea3f;');
-}
-.mt-check {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea40;');
-}
-.mt-chevron-left {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea41;');
+.mt-organization {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea20;');
 }
 .mt-plus {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe902;');
 }
-.mt-chevron-right {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea42;');
+.mt-question {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea3f;');
 }
-.mt-cross {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea43;');
+.mt-refresh {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe901;');
 }
-.mt-chevron-up {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea44;');
+.mt-scope-accounts-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea37;');
 }
-.mt-chevron-down {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea45;');
+.mt-scope-categories-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea34;');
 }
-.mt-back {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea2b;');
+.mt-scope-categories-write {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea33;');
 }
-.mt-forward {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea2c;');
+.mt-scope-expense-claims-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea32;');
 }
-.mt-external-link {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe909;');
+.mt-scope-expense-claims-write {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea31;');
+}
+.mt-scope-guest-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea38;');
+}
+.mt-scope-investment-accounts-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea22;');
+}
+.mt-scope-investment-transactions-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea21;');
+}
+.mt-scope-life-insurance-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea30;');
+}
+.mt-scope-notifications-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea2f;');
+}
+.mt-scope-point-transactions-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea1f;');
+}
+.mt-scope-points-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea2d;');
+}
+.mt-scope-request-refresh {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea2e;');
+}
+.mt-scope-transactions-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea36;');
+}
+.mt-scope-transactions-write {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea35;');
+}
+.mt-search {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe905;');
+}
+.mt-settings {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe900;');
+}
+.mt-status-error {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe906;');
+}
+.mt-status-refresh {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe908;');
+}
+.mt-status-updated {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe907;');
 }
 
