@@ -31,7 +31,7 @@ const svgo = new SVGO({
 function reactComponentTemplate({ template }, opts, { imports, componentName, props, jsx, exports }) {
   const templateEngine = template.smart({ plugins: ['jsx'] });
   return templateEngine.ast`
-    import * as React from 'react';
+    import React from 'react';
     export default function ${componentName}(props) { return ${jsx} }
   `;
 }
@@ -76,7 +76,7 @@ icomoonJsonDefinition.forEach(async ({ properties: { name }, icon: { paths } }) 
     const svgComponent = await svgr(data, { icon: true, template: reactComponentTemplate }, { componentName });
 
     // Transpiles JSX into JS with Babel
-    const result = await babel.transformAsync(svgComponent, BABEL_SETTINGS);
+    const result = await babel.transformAsync(svgComponent, { ...BABEL_SETTINGS, presets: [['@babel/preset-env']] });
 
     fs.outputFile(path.join(componentPath, 'index.js'), result.code);
 
@@ -119,7 +119,8 @@ async function generateIconComponent() {
   const typeDefinition = await ejs.renderFile(path.join(FOLDER.TEMPLATES, 'IconComponentTypeDefinition.d.ts'), {
     components: componentStatements
   });
-  fs.outputFile(path.join(iconComponendFolder, 'index.d.ts'), typeDefinition);
+  fs.outputFile(path.join(iconComponendFolder, 'cjs', 'index.d.ts'), typeDefinition);
+  fs.outputFile(path.join(iconComponendFolder, 'esm', 'index.d.ts'), typeDefinition);
 }
 
 generateIconComponent();

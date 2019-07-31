@@ -1,10 +1,10 @@
 {
   "name": "mt-web-icons",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": true,
   "main": "react/Icon/cjs/index.js",
   "module": "react/Icon/esm/index.js",
-  "types": "react/Icon/index.d.ts",
+  "types": "react/Icon/cjs/index.d.ts",
   "description": "Moneytree icons for web-based products.",
   "package-name": "mt-web-icons",
   "scripts": {

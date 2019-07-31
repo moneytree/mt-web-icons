@@ -1,11 +1,11 @@
 /// <reference types="react" />
-import { SVGAttributes, HTMLAttributes, ReactElement } from 'react';
+import { SVGAttributes, HTMLAttributes, ReactElement, ReactNode } from 'react';
 interface ICoreProps {
   name: string;
-  fallback?: ReactElement;
-  placeholder?: ReactElement;
+  fallback?: ReactNode;
+  placeholder?: ReactNode;
 }
-declare type IIconComponentProps = SVGAttributes<SVGElement> & HTMLAttributes<SVGElement> & ICoreProps;
+declare type IIconComponentProps = SVGAttributes<SVGElement> & ICoreProps;
 <% components.forEach(({ name }) => { %>
 <%- `export function ${name}(props: SVGAttributes<SVGElement>): ReactElement;` -%>
 <% }); %>

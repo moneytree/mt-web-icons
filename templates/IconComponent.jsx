@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import toPascalCase from 'to-pascal-case';
 
 const { Suspense, lazy } = React;
