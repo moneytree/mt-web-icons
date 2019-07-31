@@ -1,11 +1,11 @@
 /// <reference types="react" />
-import { SVGAttributes, HTMLAttributes, ReactElement } from 'react';
+import { SVGAttributes, HTMLAttributes, ReactNode, ReactElement } from 'react';
 interface ICoreProps {
   name: string;
-  fallback?: ReactElement;
-  placeholder?: ReactElement;
+  fallback?: ReactNode;
+  placeholder?: ReactNode;
 }
-declare type IIconComponentProps = SVGAttributes<SVGElement> & HTMLAttributes<SVGElement> & ICoreProps;
+declare type IIconComponentProps = SVGAttributes<SVGElement> & ICoreProps;
 
 export function AdvertisingExpense(props: SVGAttributes<SVGElement>): ReactElement;
 export function AirFare(props: SVGAttributes<SVGElement>): ReactElement;

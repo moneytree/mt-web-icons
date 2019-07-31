@@ -119,7 +119,8 @@ async function generateIconComponent() {
   const typeDefinition = await ejs.renderFile(path.join(FOLDER.TEMPLATES, 'IconComponentTypeDefinition.d.ts'), {
     components: componentStatements
   });
-  fs.outputFile(path.join(iconComponendFolder, 'index.d.ts'), typeDefinition);
+  fs.outputFile(path.join(iconComponendFolder, 'esm', 'index.d.ts'), typeDefinition);
+  fs.outputFile(path.join(iconComponendFolder, 'cjs', 'index.d.ts'), typeDefinition);
 }
 
 generateIconComponent();

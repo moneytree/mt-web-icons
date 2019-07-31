@@ -4,7 +4,7 @@
   "private": true,
   "main": "react/Icon/cjs/index.js",
   "module": "react/Icon/esm/index.js",
-  "types": "react/Icon/index.d.ts",
+  "typings": "react/Icon/index.d.ts",
   "description": "Moneytree icons for web-based products.",
   "package-name": "mt-web-icons",
   "scripts": {
