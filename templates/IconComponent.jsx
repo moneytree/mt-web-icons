@@ -20,13 +20,31 @@ function getModule(name) {
   }
 }
 
+function renderFallback(props) {
+  const { width = 20, height = 20 } = props;
+  const fallbackProps = {
+    ...props,
+    width,
+    height,
+    style: {
+      ...props.style,
+      display: 'inline-block',
+      borderRadius: 100,
+      backgroundColor: '#000',
+      width: `${width}px`,
+      height: `${height}px`,
+      'vertical-align': 'middle'
+    }
+  };
+
+  return <div {...fallbackProps} />;
+}
+
 export default function Icon(props) {
   const {
     name,
-    width = 24,
-    height = 24,
     fallback = null,
-    placeholder= <div style={{ borderRadius: 100, backgroundColor: '#000', width: `${width}px`, height: `${height}px` }} />
+    placeholder = renderFallback(props)
   } = props;
 
   const IconComponent = getModule(toPascalCase(name));
