@@ -24,6 +24,7 @@ const BABEL_SETTINGS = {
 
 // We wanna preserve the ViewBox to preserve the aspect ratio of the svg.
 const svgo = new SVGO({
+  multipass: true,
   plugins: [{ removeViewBox: false }]
 });
 
@@ -73,7 +74,13 @@ icomoonJsonDefinition.forEach(async ({ properties: { name }, icon: { paths } }) 
     fs.mkdirsSync(componentPath);
 
     // Creates the React component from the SVG source.
-    const svgComponent = await svgr(data, { icon: true, template: reactComponentTemplate }, { componentName });
+    let svgComponent = await svgr(data, { icon: true, template: reactComponentTemplate }, { componentName });
+    // SVGR produces an SVG with width="1em" and height="1em"
+    // The regex replaces width="1em" with width="100%" and height="1em" with height="100%"
+    svgComponent = svgComponent.replace(
+      /<svg(.*?)((?:width|height)="(.*?)")(.*?)((?:width|height)="(.*?)")(.*?)>/gim,
+      '<svg$1width="100%"$4height="100%"$7>'
+    );
 
     // Transpiles JSX into JS with Babel
     const result = await babel.transformAsync(svgComponent, { ...BABEL_SETTINGS, presets: [['@babel/preset-env']] });
