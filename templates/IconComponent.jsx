@@ -33,7 +33,7 @@ function renderFallback(props) {
       backgroundColor: '#000',
       width: `${width}px`,
       height: `${height}px`,
-      'vertical-align': 'middle'
+      verticalAlign: 'middle'
     }
   };
 
