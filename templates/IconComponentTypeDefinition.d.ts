@@ -1,7 +1,7 @@
 /// <reference types="react" />
-import { SVGAttributes, HTMLAttributes, ReactElement, ReactNode } from 'react';
+import { SVGAttributes, ReactElement, ReactNode } from 'react';
 interface ICoreProps {
-  name: string;
+  icon: string;
   fallback?: ReactNode;
   placeholder?: ReactNode;
 }
