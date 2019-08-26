@@ -30,7 +30,7 @@ function renderFallback(props) {
       ...props.style,
       display: 'inline-block',
       borderRadius: 100,
-      backgroundColor: '#000',
+      backgroundColor: '#e7e7e7',
       width: `${width}px`,
       height: `${height}px`,
       verticalAlign: 'middle'
@@ -41,13 +41,14 @@ function renderFallback(props) {
 }
 
 export default function Icon(props) {
+  const defaultFallback = renderFallback(props);
   const {
-    name,
-    fallback = null,
-    placeholder = renderFallback(props)
+    icon,
+    fallback = defaultFallback,
+    placeholder = defaultFallback
   } = props;
 
-  const IconComponent = getModule(toPascalCase(name));
+  const IconComponent = getModule(toPascalCase(icon));
 
   return (
     <Suspense fallback={fallback}>
