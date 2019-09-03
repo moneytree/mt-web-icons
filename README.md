@@ -32,7 +32,7 @@ import React, { ReactElement } from 'react';
 import Icon from 'mt-web-icons';
 
 export default function IconAuto(): ReactElement {
-  return <Icon name="auto" width={100} height={100} fill="#ffffff" />;
+  return <Icon icon="auto" width={100} height={100} fill="#ffffff" />;
 }
 ```
 
@@ -55,7 +55,7 @@ import React, { ReactElement } from 'react';
 import Icon from 'mt-web-icons';
 
 export default function IconAuto(): ReactElement {
-  return <Icon name="Auto" placeholder={null} fallback={<div />} />;
+  return <Icon icon="Auto" placeholder={null} fallback={<div />} />;
 }
 ```
 
