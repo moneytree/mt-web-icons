@@ -21,7 +21,7 @@ function getModule(name) {
 }
 
 function renderFallback(props) {
-  const { width = 20, height = 20 } = props;
+  const { width = 24, height = 24 } = props;
   const fallbackProps = {
     ...props,
     width,
