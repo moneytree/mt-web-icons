@@ -47,13 +47,13 @@ fs.removeSync(FOLDER.REACT);
 fs.mkdirsSync(FOLDER.SVGS);
 fs.mkdirsSync(FOLDER.REACT);
 
-icomoonJsonDefinition.forEach(async ({ properties: { name }, icon: { paths } }) => {
+icomoonJsonDefinition.forEach(async ({ properties: { name }, icon: { paths, width = 1024, height = 1024 } }) => {
   // Creates the SVG source code
   const pathStrings = paths.map(path => `<path fill="#000" d="${path}"/>`);
   const dataSource = `
     <svg version="1.1"
          xmlns="http://www.w3.org/2000/svg"
-         viewBox="0 0 1024 1024"
+         viewBox="0 0 ${width} ${height}"
     >
       ${pathStrings.join('')}
     </svg>`.replace(/^\s+|\s+$/gm, '');
