@@ -44,14 +44,13 @@ export default function Icon(props) {
   const defaultFallback = renderFallback(props);
   const {
     icon,
-    fallback = defaultFallback,
     placeholder = defaultFallback
   } = props;
 
   const IconComponent = getModule(toPascalCase(icon));
 
   return (
-    <Suspense fallback={fallback}>
+    <Suspense fallback={placeholder}>
       {IconComponent && <IconComponent {...props} /> || placeholder}
     </Suspense>
   );
