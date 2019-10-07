@@ -2,7 +2,6 @@
 import { SVGAttributes, ReactElement, ReactNode } from 'react';
 interface ICoreProps {
   icon: string;
-  fallback?: ReactNode;
   placeholder?: ReactNode;
 }
 declare type IIconComponentProps = SVGAttributes<SVGElement> & ICoreProps;
