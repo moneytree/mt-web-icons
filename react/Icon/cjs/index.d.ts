@@ -6,6 +6,7 @@ interface ICoreProps {
 }
 declare type IIconComponentProps = SVGAttributes<SVGElement> & ICoreProps;
 
+export function Sliders(props: SVGAttributes<SVGElement>): ReactElement;
 export function AdvertisingExpense(props: SVGAttributes<SVGElement>): ReactElement;
 export function AirFare(props: SVGAttributes<SVGElement>): ReactElement;
 export function AirTravel(props: SVGAttributes<SVGElement>): ReactElement;
