@@ -26,7 +26,7 @@ make sure replace these folder & files
     - `yarn`
     - `yarn build`
 2. Under your project, install the local mt-web-icon package
-   - `rm -rvf ./node_modules/mt-web-icons`
+   - `rm -rf ./node_modules/mt-web-icons`
     - `yarn add file:../mt-web-icons` (path the folder mt-web-icons)
 3. Test it
 
