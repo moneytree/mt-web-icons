@@ -13,6 +13,7 @@
 		el.innerHTML = '<span style="font-family: \'mt-web-icons\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'mt-tick': '&#xe90e;',
 		'mt-sliders': '&#xe90d;',
 		'mt-advertising_expense': '&#xe92a;',
 		'mt-air_fare': '&#xe92b;',
