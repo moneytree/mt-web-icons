@@ -20,6 +20,8 @@ make sure replace these folder & files
     - replace the folder `/fonts` with unzip folder `/fonts`
     - replace the file `/css/style.css` with unzip file `/style.css`
     - replace the file `/selection.json` with unzip file `/selection.json`
+10. In `package.json` increment the version
+11. create a release in github
 
 ### Test the new icon it's work on local.
 1. Under the mt-web-icon run
