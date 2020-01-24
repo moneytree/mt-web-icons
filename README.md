@@ -19,16 +19,18 @@ make sure replace these folder & files
     - replace the folder `/icomoon` with unzip folder
     - replace the folder `/fonts` with unzip folder `/fonts`
     - replace the file `/css/style.css` with unzip file `/style.css`
+    - replace the file `/style.css` with unzip file `/style.css`
     - replace the file `/selection.json` with unzip file `/selection.json`
 10. In `package.json` increment the version
-11. create a release in github
+11. Follow the steps below to test locally
+12. Create a release in github
 
 ### Test the new icon it's work on local.
 1. Under the mt-web-icon run
     - `yarn`
     - `yarn build`
 2. Under your project, install the local mt-web-icon package
-   - `rm -rf ./node_modules/mt-web-icons`
+    - `rm -rf ./node_modules/mt-web-icons`
     - `yarn add file:../mt-web-icons` (path the folder mt-web-icons)
 3. Test it
 
