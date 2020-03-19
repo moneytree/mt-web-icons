@@ -6,6 +6,9 @@ interface ICoreProps {
 }
 declare type IIconComponentProps = SVGAttributes<SVGElement> & ICoreProps;
 
+export function SystemsClear(props: SVGAttributes<SVGElement>): ReactElement;
+export function SystemsError(props: SVGAttributes<SVGElement>): ReactElement;
+export function SystemsLock(props: SVGAttributes<SVGElement>): ReactElement;
 export function SpendingCycle(props: SVGAttributes<SVGElement>): ReactElement;
 export function Pen(props: SVGAttributes<SVGElement>): ReactElement;
 export function Faq(props: SVGAttributes<SVGElement>): ReactElement;

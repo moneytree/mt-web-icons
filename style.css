@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mt-web-icons';
-  src:  url('fonts/mt-web-icons.eot?g7aurl');
-  src:  url('fonts/mt-web-icons.eot?g7aurl#iefix') format('embedded-opentype'),
-    url('fonts/mt-web-icons.ttf?g7aurl') format('truetype'),
-    url('fonts/mt-web-icons.woff?g7aurl') format('woff'),
-    url('fonts/mt-web-icons.svg?g7aurl#mt-web-icons') format('svg');
+  src:  url('fonts/mt-web-icons.eot?tz4nhn');
+  src:  url('fonts/mt-web-icons.eot?tz4nhn#iefix') format('embedded-opentype'),
+    url('fonts/mt-web-icons.ttf?tz4nhn') format('truetype'),
+    url('fonts/mt-web-icons.woff?tz4nhn') format('woff'),
+    url('fonts/mt-web-icons.svg?tz4nhn#mt-web-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mt-systems-clear:before {
+  content: "\e916";
+}
+.mt-systems-error:before {
+  content: "\e917";
+}
+.mt-systems-lock:before {
+  content: "\e918";
+}
 .mt-spending-cycle:before {
   content: "\e915";
 }
