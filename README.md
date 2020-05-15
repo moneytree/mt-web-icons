@@ -11,7 +11,7 @@ You are familiar with Git.
 3. Go to https://icomoon.io/app/#/select
 4. Upload the latest `selection.json` in the `iconmoon` folder
 5. In the iconmoon web app, just upload whatever svg you want to add. Be sure to center it and name it properly.
-6. Generate the new web font
+6. Generate the new web font by click `Generate Font` button at bottom right corner.
 7. Download it
 8. Unzip it
 9. Copy the whole unzipped folder to update this repository,
@@ -23,7 +23,8 @@ make sure replace these folder & files
     - replace the file `/selection.json` with unzip file `/selection.json`
 10. In `package.json` increment the version
 11. Follow the steps below to test locally
-12. Create a release in github
+12. Create a PR
+13. [Set new release](https://github.com/moneytree/mt-web-icons/releases) after merge
 
 ### Test the new icon it's work on local.
 1. Under the mt-web-icon run
