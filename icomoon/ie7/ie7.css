@@ -1,4 +1,4 @@
-.mt-spinner {
+.mt-systems-return {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91b;');
 }
 .mt-systems-negative {
