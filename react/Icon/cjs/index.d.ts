@@ -6,6 +6,7 @@ interface ICoreProps {
 }
 declare type IIconComponentProps = SVGAttributes<SVGElement> & ICoreProps;
 
+export function SproutLogo(props: SVGAttributes<SVGElement>): ReactElement;
 export function SystemsReturn(props: SVGAttributes<SVGElement>): ReactElement;
 export function SystemsNegative(props: SVGAttributes<SVGElement>): ReactElement;
 export function SystemsPositive(props: SVGAttributes<SVGElement>): ReactElement;
