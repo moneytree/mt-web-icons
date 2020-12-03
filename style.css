@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mt-web-icons';
-  src:  url('fonts/mt-web-icons.eot?n7ejm8');
-  src:  url('fonts/mt-web-icons.eot?n7ejm8#iefix') format('embedded-opentype'),
-    url('fonts/mt-web-icons.ttf?n7ejm8') format('truetype'),
-    url('fonts/mt-web-icons.woff?n7ejm8') format('woff'),
-    url('fonts/mt-web-icons.svg?n7ejm8#mt-web-icons') format('svg');
+  src:  url('fonts/mt-web-icons.eot?qfi08a');
+  src:  url('fonts/mt-web-icons.eot?qfi08a#iefix') format('embedded-opentype'),
+    url('fonts/mt-web-icons.ttf?qfi08a') format('truetype'),
+    url('fonts/mt-web-icons.woff?qfi08a') format('woff'),
+    url('fonts/mt-web-icons.svg?qfi08a#mt-web-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -13,7 +13,7 @@
 [class^="mt-"], [class*=" mt-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'mt-web-icons' !important;
-  speak: none;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -25,6 +25,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mt-sprout-logo:before {
+  content: "\e91c";
+  color: #16d936;
+}
 .mt-systems-return:before {
   content: "\e91b";
 }
