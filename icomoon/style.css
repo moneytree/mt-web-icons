@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mt-web-icons';
-  src:  url('fonts/mt-web-icons.eot?qfi08a');
-  src:  url('fonts/mt-web-icons.eot?qfi08a#iefix') format('embedded-opentype'),
-    url('fonts/mt-web-icons.ttf?qfi08a') format('truetype'),
-    url('fonts/mt-web-icons.woff?qfi08a') format('woff'),
-    url('fonts/mt-web-icons.svg?qfi08a#mt-web-icons') format('svg');
+  src:  url('fonts/mt-web-icons.eot?uel6uq');
+  src:  url('fonts/mt-web-icons.eot?uel6uq#iefix') format('embedded-opentype'),
+    url('fonts/mt-web-icons.ttf?uel6uq') format('truetype'),
+    url('fonts/mt-web-icons.woff?uel6uq') format('woff'),
+    url('fonts/mt-web-icons.svg?uel6uq#mt-web-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -214,6 +214,15 @@
 }
 .mt-status-updated:before {
   content: "\e907";
+}
+.mt-yenphant:before {
+  content: "\e91e";
+}
+.mt-alarm:before {
+  content: "\e91f";
+}
+.mt-cog:before {
+  content: "\e91d";
 }
 .mt-tick:before {
   content: "\e90e";
