@@ -1,7 +1,5 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import toPascalCase from 'to-pascal-case';
-
-const { Suspense, lazy } = React;
 
 <%_ components.forEach(({ name, path }) => { _%>
 <%- `const _${name} = lazy(() => import('${path}'));` %>
