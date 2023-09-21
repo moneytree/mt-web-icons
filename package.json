@@ -1,6 +1,6 @@
 {
   "name": "mt-web-icons",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": true,
   "main": "react/Icon/cjs/index.js",
   "module": "react/Icon/esm/index.js",
