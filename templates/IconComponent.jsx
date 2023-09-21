@@ -35,7 +35,7 @@ function renderFallback(props) {
     }
   };
 
-  return <div {...fallbackProps} />;
+  return <span {...fallbackProps} />;
 }
 
 export default function Icon(props) {
