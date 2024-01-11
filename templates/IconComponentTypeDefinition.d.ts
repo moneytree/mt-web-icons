@@ -4,6 +4,7 @@ interface ICoreProps {
   icon: string;
   placeholder?: ReactNode;
 }
+export const iconNames: ReadonlyArray<string>;
 declare type IIconComponentProps = SVGAttributes<SVGElement> & ICoreProps;
 <% components.forEach(({ name }) => { %>
 <%- `export function ${name}(props: SVGAttributes<SVGElement>): ReactNode;` -%>

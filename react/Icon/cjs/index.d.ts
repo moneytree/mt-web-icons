@@ -4,6 +4,7 @@ interface ICoreProps {
   icon: string;
   placeholder?: ReactNode;
 }
+export const iconNames: ReadonlyArray<string>;
 declare type IIconComponentProps = SVGAttributes<SVGElement> & ICoreProps;
 
 export function SproutLogo(props: SVGAttributes<SVGElement>): ReactNode;

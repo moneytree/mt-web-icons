@@ -18,6 +18,12 @@ function getModule(name) {
   }
 }
 
+export const iconNames = [
+  <%_ components.forEach(({ name, path }, i) => { _%>
+  <%- `'${name}'${i < components.length - 1 ? ',' : ''}` %>
+  <% }); %>
+]
+
 function renderFallback(props) {
   const { width = 24, height = 24 } = props;
   const fallbackProps = {
