@@ -7,6 +7,7 @@ interface ICoreProps {
 export const iconNames: ReadonlyArray<string>;
 declare type IIconComponentProps = SVGAttributes<SVGElement> & ICoreProps;
 
+export function ScopeOwnDataRead(props: SVGAttributes<SVGElement>): ReactNode;
 export function SproutLogo(props: SVGAttributes<SVGElement>): ReactNode;
 export function SystemsReturn(props: SVGAttributes<SVGElement>): ReactNode;
 export function SystemsNegative(props: SVGAttributes<SVGElement>): ReactNode;
