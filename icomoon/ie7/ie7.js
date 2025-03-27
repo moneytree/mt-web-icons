@@ -13,6 +13,7 @@
 		el.innerHTML = '<span style="font-family: \'mt-web-icons\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'mt-scope-own-data-read': '&#xe920;',
 		'mt-sprout-logo': '&#xe91c;',
 		'mt-systems-return': '&#xe91b;',
 		'mt-systems-negative': '&#xe919;',

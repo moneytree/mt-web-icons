@@ -1,16 +1,12 @@
 # mt-web-icons
 
-## Prerequisites
+## Steps for updating the web font
 
-You have Node installed at v10.0.0+ and Yarn at v1.2.0+.
-You are familiar with Git.
-
-# Steps for updating the web font
 1. Fork the repository from mt-web-icon
 2. git fetch and pull the latest version
 3. Go to https://icomoon.io/app/#/select
 4. Upload the latest `selection.json` in the `iconmoon` folder
-5. In the iconmoon web app, just upload whatever svg you want to add. Be sure to center it and name it properly.
+5. In the iconmoon web app, upload the svg you want to add. Be sure to center it and name it properly.
 6. Generate the new web font by click `Generate Font` button at bottom right corner.
 7. Download it
 8. Unzip it
@@ -35,7 +31,7 @@ make sure replace these folder & files
     - `yarn add file:../mt-web-icons` (path the folder mt-web-icons)
 3. Test it
 
-# Create svgs and build components
+## Create svgs and build components
 
 Run the following command before:
 
@@ -43,7 +39,7 @@ Run the following command before:
 yarn build
 ```
 
-# How to use it
+## How to use it
 
 ### Icon component:
 
