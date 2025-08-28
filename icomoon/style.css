@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mt-web-icons';
-  src:  url('fonts/mt-web-icons.eot?3bk7z5');
-  src:  url('fonts/mt-web-icons.eot?3bk7z5#iefix') format('embedded-opentype'),
-    url('fonts/mt-web-icons.ttf?3bk7z5') format('truetype'),
-    url('fonts/mt-web-icons.woff?3bk7z5') format('woff'),
-    url('fonts/mt-web-icons.svg?3bk7z5#mt-web-icons') format('svg');
+  src:  url('fonts/mt-web-icons.eot?pyz0kn');
+  src:  url('fonts/mt-web-icons.eot?pyz0kn#iefix') format('embedded-opentype'),
+    url('fonts/mt-web-icons.ttf?pyz0kn') format('truetype'),
+    url('fonts/mt-web-icons.woff?pyz0kn') format('woff'),
+    url('fonts/mt-web-icons.svg?pyz0kn#mt-web-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,9 +25,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.mt-scope-own-data-read:before {
-  content: "\e920";
-}
 .mt-sprout-logo:before {
   content: "\e91c";
   color: #16d936;
@@ -161,6 +158,9 @@
 .mt-scope-accounts-read:before {
   content: "\ea37";
 }
+.mt-scope-accounts-write:before {
+  content: "\e921";
+}
 .mt-scope-categories-read:before {
   content: "\ea34";
 }
@@ -202,6 +202,9 @@
 }
 .mt-scope-transactions-write:before {
   content: "\ea35";
+}
+.mt-scope-own-data-read:before {
+  content: "\e920";
 }
 .mt-search:before {
   content: "\e905";

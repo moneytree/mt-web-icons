@@ -1,6 +1,3 @@
-.mt-scope-own-data-read {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe920;');
-}
 .mt-sprout-logo {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91c;');
 }
@@ -133,6 +130,9 @@
 .mt-scope-accounts-read {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea37;');
 }
+.mt-scope-accounts-write {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe921;');
+}
 .mt-scope-categories-read {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea34;');
 }
@@ -174,6 +174,9 @@
 }
 .mt-scope-transactions-write {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xea35;');
+}
+.mt-scope-own-data-read {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe920;');
 }
 .mt-search {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe905;');

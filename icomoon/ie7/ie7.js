@@ -13,7 +13,6 @@
 		el.innerHTML = '<span style="font-family: \'mt-web-icons\'">' + entity + '</span>' + html;
 	}
 	var icons = {
-		'mt-scope-own-data-read': '&#xe920;',
 		'mt-sprout-logo': '&#xe91c;',
 		'mt-systems-return': '&#xe91b;',
 		'mt-systems-negative': '&#xe919;',
@@ -58,6 +57,7 @@
 		'mt-question': '&#xea3f;',
 		'mt-refresh': '&#xe901;',
 		'mt-scope-accounts-read': '&#xea37;',
+		'mt-scope-accounts-write': '&#xe921;',
 		'mt-scope-categories-read': '&#xea34;',
 		'mt-scope-categories-write': '&#xea33;',
 		'mt-scope-expense-claims-read': '&#xea32;',
@@ -72,6 +72,7 @@
 		'mt-scope-request-refresh': '&#xea2e;',
 		'mt-scope-transactions-read': '&#xea36;',
 		'mt-scope-transactions-write': '&#xea35;',
+		'mt-scope-own-data-read': '&#xe920;',
 		'mt-search': '&#xe905;',
 		'mt-settings': '&#xe900;',
 		'mt-status-error': '&#xe906;',
