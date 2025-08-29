@@ -7,7 +7,6 @@ interface ICoreProps {
 export const iconNames: ReadonlyArray<string>;
 declare type IIconComponentProps = SVGAttributes<SVGElement> & ICoreProps;
 
-export function ScopeOwnDataRead(props: SVGAttributes<SVGElement>): ReactNode;
 export function SproutLogo(props: SVGAttributes<SVGElement>): ReactNode;
 export function SystemsReturn(props: SVGAttributes<SVGElement>): ReactNode;
 export function SystemsNegative(props: SVGAttributes<SVGElement>): ReactNode;
@@ -52,6 +51,7 @@ export function Plus(props: SVGAttributes<SVGElement>): ReactNode;
 export function Question(props: SVGAttributes<SVGElement>): ReactNode;
 export function Refresh(props: SVGAttributes<SVGElement>): ReactNode;
 export function ScopeAccountsRead(props: SVGAttributes<SVGElement>): ReactNode;
+export function ScopeAccountsWrite(props: SVGAttributes<SVGElement>): ReactNode;
 export function ScopeCategoriesRead(props: SVGAttributes<SVGElement>): ReactNode;
 export function ScopeCategoriesWrite(props: SVGAttributes<SVGElement>): ReactNode;
 export function ScopeExpenseClaimsRead(props: SVGAttributes<SVGElement>): ReactNode;
@@ -66,6 +66,7 @@ export function ScopePointsRead(props: SVGAttributes<SVGElement>): ReactNode;
 export function ScopeRequestRefresh(props: SVGAttributes<SVGElement>): ReactNode;
 export function ScopeTransactionsRead(props: SVGAttributes<SVGElement>): ReactNode;
 export function ScopeTransactionsWrite(props: SVGAttributes<SVGElement>): ReactNode;
+export function ScopeOwnDataRead(props: SVGAttributes<SVGElement>): ReactNode;
 export function Search(props: SVGAttributes<SVGElement>): ReactNode;
 export function Settings(props: SVGAttributes<SVGElement>): ReactNode;
 export function StatusError(props: SVGAttributes<SVGElement>): ReactNode;
