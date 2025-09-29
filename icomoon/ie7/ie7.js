@@ -56,6 +56,7 @@
 		'mt-plus': '&#xe902;',
 		'mt-question': '&#xea3f;',
 		'mt-refresh': '&#xe901;',
+		'mt-scope-account-holder-read': '&#xe922;',
 		'mt-scope-accounts-read': '&#xea37;',
 		'mt-scope-accounts-write': '&#xe921;',
 		'mt-scope-categories-read': '&#xea34;',
