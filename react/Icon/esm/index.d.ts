@@ -50,6 +50,7 @@ export function Organization(props: SVGAttributes<SVGElement>): ReactNode;
 export function Plus(props: SVGAttributes<SVGElement>): ReactNode;
 export function Question(props: SVGAttributes<SVGElement>): ReactNode;
 export function Refresh(props: SVGAttributes<SVGElement>): ReactNode;
+export function ScopeAccountHolderRead(props: SVGAttributes<SVGElement>): ReactNode;
 export function ScopeAccountsRead(props: SVGAttributes<SVGElement>): ReactNode;
 export function ScopeAccountsWrite(props: SVGAttributes<SVGElement>): ReactNode;
 export function ScopeCategoriesRead(props: SVGAttributes<SVGElement>): ReactNode;
