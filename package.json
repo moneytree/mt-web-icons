@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/moneytree/mt-web-icons#readme",
   "peerDependencies": {
-    "react": "^16.8.6 || ^17.0.2 || ^18.2.0"
+    "react": "^16.8.6 || ^17.0.2 || ^18.2.0 || ^19.0.0"
   },
   "dependencies": {
     "to-pascal-case": "^1.0.0"
