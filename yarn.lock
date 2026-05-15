@@ -314,7 +314,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-plugin-utils@npm:^7.28.6":
+"@babel/helper-plugin-utils@npm:^7.27.1, @babel/helper-plugin-utils@npm:^7.28.6":
   version: 7.28.6
   resolution: "@babel/helper-plugin-utils@npm:7.28.6"
   checksum: 10c0/3f5f8acc152fdbb69a84b8624145ff4f9b9f6e776cb989f9f968f8606eb7185c5c3cfcf3ba08534e37e1e0e1c118ac67080610333f56baa4f7376c99b5f1143d
@@ -520,15 +520,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-proposal-export-default-from@npm:^7.22.5":
-  version: 7.22.5
-  resolution: "@babel/plugin-proposal-export-default-from@npm:7.22.5"
+"@babel/plugin-proposal-export-default-from@npm:^7.27.1":
+  version: 7.27.1
+  resolution: "@babel/plugin-proposal-export-default-from@npm:7.27.1"
   dependencies:
-    "@babel/helper-plugin-utils": "npm:^7.22.5"
-    "@babel/plugin-syntax-export-default-from": "npm:^7.22.5"
+    "@babel/helper-plugin-utils": "npm:^7.27.1"
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: 10c0/db5d0df5bb8d13078cf2793900ca89075622e4a8c4c5246328b1b62ad3c99990b18e4716de10123a34649fea885d8a615082a21db905903d27fa0bcbd53da799
+  checksum: 10c0/6e0756e0692245854028caea113dad2dc11fcdd479891a59d9a614a099e7e321f2bd25a1e3dd6f3b36ba9506a76f072f63adbf676e5ed51e7eeac277612e3db2
   languageName: node
   linkType: hard
 
@@ -594,17 +593,6 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.0-0
   checksum: 10c0/9c50927bf71adf63f60c75370e2335879402648f468d0172bc912e303c6a3876927d8eb35807331b57f415392732ed05ab9b42c68ac30a936813ab549e0246c5
-  languageName: node
-  linkType: hard
-
-"@babel/plugin-syntax-export-default-from@npm:^7.22.5":
-  version: 7.22.5
-  resolution: "@babel/plugin-syntax-export-default-from@npm:7.22.5"
-  dependencies:
-    "@babel/helper-plugin-utils": "npm:^7.22.5"
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: 10c0/57fae17e0db773fa6f11263cf59e9c1946145c3dde01b399c364c6a6b0b7c9df18051d697ad95b5c6927d7f081921aa1f1096bbd9a2762746e92c1144810c32c
   languageName: node
   linkType: hard
 
@@ -2624,7 +2612,7 @@ __metadata:
   resolution: "mt-web-icons@workspace:."
   dependencies:
     "@babel/core": "npm:^7.22.9"
-    "@babel/plugin-proposal-export-default-from": "npm:^7.22.5"
+    "@babel/plugin-proposal-export-default-from": "npm:^7.27.1"
     "@babel/plugin-syntax-dynamic-import": "npm:^7.8.3"
     "@babel/plugin-transform-react-jsx": "npm:^7.22.5"
     "@babel/preset-env": "npm:^7.22.9"
