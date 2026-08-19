@@ -61,17 +61,11 @@ icomoonJsonDefinition.forEach(
     </svg>`.replace(/^\s+|\s+$/gm, "");
 
     try {
-      const { data } = await optimize(dataSource, {
+      const { data } = optimize(dataSource, {
         multipass: true,
         plugins: [
           {
             name: "preset-default",
-            params: {
-              overrides: {
-                // Preserves the aspect ratio of the svg.
-                removeViewBox: false,
-              },
-            },
           },
         ],
       });
