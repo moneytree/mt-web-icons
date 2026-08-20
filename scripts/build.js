@@ -3,14 +3,15 @@ const path = require("path");
 const { optimize } = require("svgo");
 const { transform } = require("@svgr/core");
 const babel = require("@babel/core");
-const toPascalCase = require("to-pascal-case");
 const ejs = require("ejs");
+const toPascalCase = require("../lib/toPascalCase");
 
 const FOLDER = {
   SVGS: path.resolve(__dirname, "../svgs"),
   REACT: path.resolve(__dirname, "../react"),
   ICOMOON: path.resolve(__dirname, "../icomoon"),
   TEMPLATES: path.resolve(__dirname, "../templates"),
+  LIB: path.resolve(__dirname, "../lib"),
 };
 
 const BABEL_SETTINGS = {
@@ -32,10 +33,9 @@ function reactComponentTemplate({ componentName, jsx }, { tpl }) {
 }
 
 // Loads JSON definition of our icons
-const icomoonJsonDefinition = require(path.join(
-  FOLDER.ICOMOON,
-  "selection.json"
-)).icons;
+const icomoonJsonDefinition = require(
+  path.join(FOLDER.ICOMOON, "selection.json"),
+).icons;
 
 // Removes svgs and components directories in case some icons are not available anymore
 fs.removeSync(FOLDER.SVGS);
@@ -95,13 +95,13 @@ icomoonJsonDefinition.forEach(
           plugins: ["@svgr/plugin-svgo", "@svgr/plugin-jsx"],
           template: reactComponentTemplate,
         },
-        { componentName }
+        { componentName },
       );
       // SVGR produces an SVG with width="1em" and height="1em"
       // The regex replaces width="1em" with width="100%" and height="1em" with height="100%"
       svgComponent = svgComponent.replace(
         /<svg(.*?)((?:width|height)="(.*?)")(.*?)((?:width|height)="(.*?)")(.*?)>/gim,
-        '<svg$1width="100%"$4height="100%"$7>'
+        '<svg$1width="100%"$4height="100%"$7>',
       );
 
       // Transpiles JSX into JS with Babel
@@ -117,13 +117,13 @@ icomoonJsonDefinition.forEach(
         path.join(FOLDER.TEMPLATES, "reactComponentTypeDefinition.d.ts"),
         {
           componentName,
-        }
+        },
       );
       fs.outputFile(path.join(componentPath, "index.d.ts"), typeDefinition);
     } catch (err) {
       console.error(err);
     }
-  }
+  },
 );
 
 async function generateIconComponent() {
@@ -137,10 +137,10 @@ async function generateIconComponent() {
         name: componentName,
         path: path.relative(
           path.join(iconComponentFolder, "cjs"),
-          componentPath
+          componentPath,
         ),
       };
-    }
+    },
   );
 
   // Generates the IconComponent source
@@ -149,16 +149,16 @@ async function generateIconComponent() {
     {
       components: componentStatements,
     },
-    { rmWhitespace: true }
+    { rmWhitespace: true },
   );
   // Traspiles `IconComponent` JSX => JS with Babel
   const iconComponentSourceESM = await babel.transformAsync(
     iconComponentTemplate,
-    BABEL_SETTINGS
+    BABEL_SETTINGS,
   );
   fs.outputFile(
     path.join(iconComponentFolder, "esm", "index.js"),
-    iconComponentSourceESM.code
+    iconComponentSourceESM.code,
   );
 
   const iconComponentSourceCJS = await babel.transformAsync(
@@ -166,11 +166,11 @@ async function generateIconComponent() {
     {
       ...BABEL_SETTINGS,
       presets: [...BABEL_SETTINGS.presets, ["@babel/preset-env"]],
-    }
+    },
   );
   fs.outputFile(
     path.join(iconComponentFolder, "cjs", "index.js"),
-    iconComponentSourceCJS.code
+    iconComponentSourceCJS.code,
   );
 
   // Generates type definitions for the `IconComponent`
@@ -178,15 +178,23 @@ async function generateIconComponent() {
     path.join(FOLDER.TEMPLATES, "IconComponentTypeDefinition.d.ts"),
     {
       components: componentStatements,
-    }
+    },
   );
   fs.outputFile(
     path.join(iconComponentFolder, "cjs", "index.d.ts"),
-    typeDefinition
+    typeDefinition,
   );
   fs.outputFile(
     path.join(iconComponentFolder, "esm", "index.d.ts"),
-    typeDefinition
+    typeDefinition,
+  );
+  fs.copySync(
+    path.join(FOLDER.LIB, "toPascalCase.js"),
+    path.join(iconComponentFolder, "cjs", "toPascalCase.js"),
+  );
+  fs.copySync(
+    path.join(FOLDER.LIB, "toPascalCase.js"),
+    path.join(iconComponentFolder, "esm", "toPascalCase.js"),
   );
 }
 
