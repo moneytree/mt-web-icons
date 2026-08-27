@@ -32,13 +32,13 @@
     "@babel/plugin-transform-react-jsx": "^7.22.5",
     "@babel/preset-env": "^7.22.9",
     "@babel/preset-react": "^7.22.5",
-    "@svgr/core": "^8.0.0",
-    "@svgr/plugin-jsx": "^8.0.1",
-    "@svgr/plugin-svgo": "^8.0.1",
+    "@svgr/core": "8.1.0",
+    "@svgr/plugin-jsx": "8.1.0",
+    "@svgr/plugin-svgo": "8.1.0",
     "@types/react": "^18.0.37",
     "ejs": "6.0.1",
     "react": "^18.2.0",
-    "svgo": "^3.3.3"
+    "svgo": "4.0.2"
   },
   "packageManager": "yarn@4.14.1"
 }
