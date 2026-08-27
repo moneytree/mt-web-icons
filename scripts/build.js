@@ -1,4 +1,5 @@
-const fs = require("fs-extra");
+const fs = require("node:fs");
+const fsPromises = require("node:fs/promises");
 const path = require("path");
 const { optimize } = require("svgo");
 const { transform } = require("@svgr/core");
@@ -38,11 +39,11 @@ const icomoonJsonDefinition = require(
 ).icons;
 
 // Removes svgs and components directories in case some icons are not available anymore
-fs.removeSync(FOLDER.SVGS);
-fs.removeSync(FOLDER.REACT);
+fs.rmSync(FOLDER.SVGS, { recursive: true, force: true });
+fs.rmSync(FOLDER.REACT, { recursive: true, force: true });
 
-fs.mkdirsSync(FOLDER.SVGS);
-fs.mkdirsSync(FOLDER.REACT);
+fs.mkdirSync(FOLDER.SVGS);
+fs.mkdirSync(FOLDER.REACT);
 
 icomoonJsonDefinition.forEach(
   async ({
@@ -78,14 +79,15 @@ icomoonJsonDefinition.forEach(
       // Creates and saves the SVGs
       const svgFilename = `${name.replace(new RegExp(/[-_]+/, "g"), "-")}.svg`;
       const svgPath = path.join(FOLDER.SVGS, svgFilename);
-      fs.outputFile(svgPath, data);
+      await fsPromises.mkdir(path.dirname(svgPath), { recursive: true });
+      fsPromises.writeFile(svgPath, data);
 
       // Creates Typescript Components
       const componentName = toPascalCase(name);
       const componentPath = path.join(FOLDER.REACT, componentName);
 
       // Creates `react` folder where to save our components
-      fs.mkdirsSync(componentPath);
+      fs.mkdirSync(componentPath);
 
       // Creates the React component from the SVG source.
       let svgComponent = await transform(
@@ -110,7 +112,7 @@ icomoonJsonDefinition.forEach(
         presets: [...BABEL_SETTINGS.presets, ["@babel/preset-env"]],
       });
 
-      fs.outputFile(path.join(componentPath, "index.js"), result.code);
+      fsPromises.writeFile(path.join(componentPath, "index.js"), result.code);
 
       // Generates type definitions for the single react components
       const typeDefinition = await ejs.renderFile(
@@ -119,7 +121,10 @@ icomoonJsonDefinition.forEach(
           componentName,
         },
       );
-      fs.outputFile(path.join(componentPath, "index.d.ts"), typeDefinition);
+      fsPromises.writeFile(
+        path.join(componentPath, "index.d.ts"),
+        typeDefinition,
+      );
     } catch (err) {
       console.error(err);
     }
@@ -156,7 +161,10 @@ async function generateIconComponent() {
     iconComponentTemplate,
     BABEL_SETTINGS,
   );
-  fs.outputFile(
+  await fsPromises.mkdir(path.join(iconComponentFolder, "esm"), {
+    recursive: true,
+  });
+  fsPromises.writeFile(
     path.join(iconComponentFolder, "esm", "index.js"),
     iconComponentSourceESM.code,
   );
@@ -168,7 +176,10 @@ async function generateIconComponent() {
       presets: [...BABEL_SETTINGS.presets, ["@babel/preset-env"]],
     },
   );
-  fs.outputFile(
+  await fsPromises.mkdir(path.join(iconComponentFolder, "cjs"), {
+    recursive: true,
+  });
+  fsPromises.writeFile(
     path.join(iconComponentFolder, "cjs", "index.js"),
     iconComponentSourceCJS.code,
   );
@@ -180,19 +191,19 @@ async function generateIconComponent() {
       components: componentStatements,
     },
   );
-  fs.outputFile(
+  fsPromises.writeFile(
     path.join(iconComponentFolder, "cjs", "index.d.ts"),
     typeDefinition,
   );
-  fs.outputFile(
+  fsPromises.writeFile(
     path.join(iconComponentFolder, "esm", "index.d.ts"),
     typeDefinition,
   );
-  fs.copySync(
+  fs.cpSync(
     path.join(FOLDER.LIB, "toPascalCase.js"),
     path.join(iconComponentFolder, "cjs", "toPascalCase.js"),
   );
-  fs.copySync(
+  fs.cpSync(
     path.join(FOLDER.LIB, "toPascalCase.js"),
     path.join(iconComponentFolder, "esm", "toPascalCase.js"),
   );
